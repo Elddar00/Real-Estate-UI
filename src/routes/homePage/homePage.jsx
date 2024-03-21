@@ -1,4 +1,4 @@
-import SearchBar from "../../components/navbar/searchBar/SearchBar";
+import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
 
 function HomePage() {
@@ -8,10 +8,10 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            explicabo suscipit cum eius, iure est nulla animi consequatur
+            facilis id pariatur fugit quos laudantium temporibus dolor ea
+            repellat provident impedit!
           </p>
           <SearchBar />
           <div className="boxes">
@@ -21,10 +21,10 @@ function HomePage() {
             </div>
             <div className="box">
               <h1>200</h1>
-              <h2>Years of Experience</h2>
+              <h2>Award Gained</h2>
             </div>
             <div className="box">
-              <h1>2000</h1>
+              <h1>2000+</h1>
               <h2>Property Ready</h2>
             </div>
           </div>
