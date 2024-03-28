@@ -76,6 +76,12 @@ nav {
         margin-right: 20px;
       }
 
+      span {
+        @include sm {
+          display: none;
+        }
+      }
+
       .profile {
         padding: 12px 24px;
         background-color: #fece51;
